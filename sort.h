@@ -28,4 +28,5 @@ void swap(listint_t **head, listint_t *l, listint_t *r);
 void quick_sort(int *array, size_t size);
 void sort(int *arr, int left, int right, size_t size);
 int split(int *arr, int left, int right, size_t size);
-#endif /* HEADER_FILE */
+void shell_sort(int *array, size_t size);
+#endif
